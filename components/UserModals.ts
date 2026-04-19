@@ -35,10 +35,15 @@ export class UserModals {
     await this.deleteModalButton.click();
   }
 
-  async confirmBrowserNotificationIfVisible() {
-    const isVisible = await this.browserToast.isVisible();
-    if (isVisible) {
-      await this.confirmBrowserNotification();
-    }
+async confirmBrowserNotificationIfVisible(timeout = 3000) {
+  const isVisible = await this.browserToast
+    .waitFor({ state: 'visible', timeout })
+    .then(() => true)
+    .catch(() => false);
+
+  if (isVisible) {
+    await this.confirmBrowserNotification();
   }
+}
+
 }
