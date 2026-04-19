@@ -68,23 +68,11 @@ cp testConfig/loginConfig.example.json testConfig/loginConfig.json
 
 > **Oba soubory (`.env`, `loginConfig.json`) jsou v `.gitignore` – necommitujte je.**
 
-## Spuštění testů
+## Spuštění testu
 
 ```bash
-# Všechny testy ve všech prohlížečích (Chromium, Firefox, WebKit)
-npx playwright test
-
-# Konkrétní prohlížeč
-npx playwright test --project=chromium
-
-# S viditelným prohlížečem (headed mód)
-npx playwright test --headed
-
-# Konkrétní testový soubor
-npx playwright test tests/demoPOM.spec.ts
-
-# Výpis dostupných testů bez spuštění
-npx playwright test --list
+# S viditelným prohlížečem chrom (headed mód)
+npx playwright test --project=chromium --headed
 ```
 
 ## Zobrazení výsledků
