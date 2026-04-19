@@ -1,0 +1,7 @@
+{
+  "LOGIN": {
+    "USERNAME": "your-email@example.com",
+    "PASSWORD": "your-password"
+  },
+  "APP_URL": "https://www.smartsupp.com/cs/"
+}
