@@ -53,3 +53,6 @@ dist/
 .env
 /loginConfig
 /testConfig/loginConfig.json
+
+# GitHub Actions
+.github/
