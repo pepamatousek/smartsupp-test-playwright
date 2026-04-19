@@ -24,7 +24,7 @@ playwright.config.ts
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/<org>/smartsupp-test-playwright.git
+git clone https://github.com/pepamatousek/smartsupp-test-playwright.git
 cd smartsupp-test-playwright
 
 # 2. Install dependencies
