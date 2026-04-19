@@ -91,8 +91,8 @@ The main settings are defined in `playwright.config.ts`:
 | Parameter | Value |
 |---|---|
 | Viewport | 1920 x 1080 |
-| Action timeout | 10 s |
-| Navigation timeout | 10 s |
-| Expect timeout | 30 s |
+| Action timeout | 20 s |
+| Navigation timeout | 20 s |
+| Expect timeout | 20 s |
 | Trace | on first retry |
 | Screenshot | on failure |

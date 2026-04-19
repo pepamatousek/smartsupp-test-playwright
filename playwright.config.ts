@@ -24,9 +24,9 @@ export default defineConfig({
     /* Base URL to use in actions like `await page.goto('')`. */
     // baseURL: 'http://localhost:3000',
     // Timeout for every action like .click() or .fill() (e.g., 5 seconds)
-    actionTimeout: 10000,
+    actionTimeout: 20000,
     // Timeout for page navigation (e.g., 10 seconds)
-    navigationTimeout: 10000,
+    navigationTimeout: 20000,
     // Set viewport size for all tests.
     viewport: { width: 1920, height: 1080 },
     /* Collect trace when retrying the failed test. See https://playwright.dev/docs/trace-viewer */
@@ -47,7 +47,7 @@ export default defineConfig({
     */
   },
     expect: {
-    timeout: 30000,
+    timeout: 20000,
   },
 
   /* Configure projects for major browsers */

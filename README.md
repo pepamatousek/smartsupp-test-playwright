@@ -91,8 +91,8 @@ Hlavní nastavení je v `playwright.config.ts`:
 | Parametr | Hodnota |
 |---|---|
 | Viewport | 1920 × 1080 |
-| Action timeout | 10 s |
-| Navigation timeout | 10 s |
-| Expect timeout | 30 s |
+| Action timeout | 20 s |
+| Navigation timeout | 20 s |
+| Expect timeout | 20 s |
 | Trace | při prvním retry |
 | Screenshot | při selhání |
