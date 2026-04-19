@@ -24,7 +24,7 @@ playwright.config.ts
 
 ```bash
 # 1. Klonování repozitáře
-git clone https://github.com/<org>/smartsupp-test-playwright.git
+git clone https://github.com/pepamatousek/smartsupp-test-playwright.git
 cd smartsupp-test-playwright
 
 # 2. Instalace závislostí
