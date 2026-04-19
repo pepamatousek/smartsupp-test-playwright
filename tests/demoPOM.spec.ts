@@ -27,7 +27,7 @@ test.describe('AI Assistant Creation Flow', () => {
 
     await test.step('Verify home page and navigate to Mira AI', async () => {
       await homePage.notificationBar.expectNotificationBarUpsellButtonVisible();
-      await homePage.userModals.confirmBrowserNotificationIfVisible(3000);
+      await homePage.userModals.confirmBrowserNotificationIfVisible(4000);
       await homePage.navbar.gotoMiraAI();
     });
 
