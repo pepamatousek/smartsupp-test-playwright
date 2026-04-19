@@ -71,20 +71,8 @@ cp testConfig/loginConfig.example.json testConfig/loginConfig.json
 ## Running Tests
 
 ```bash
-# All tests in all browsers (Chromium, Firefox, WebKit)
-npx playwright test
-
-# Specific browser
-npx playwright test --project=chromium
-
-# With a visible browser window (headed mode)
-npx playwright test --headed
-
-# Specific test file
-npx playwright test tests/demoPOM.spec.ts
-
-# List available tests without running them
-npx playwright test --list
+# With a visible browser window with chrome (headed mode)
+npx playwright test --project=chromium --headed
 ```
 
 ## Viewing Results
